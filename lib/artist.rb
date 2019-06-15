@@ -12,7 +12,7 @@ class Artist
     song.artist = self #belongs to relationship
   end
   
-  def add_song_by_name()
+  def add_song_by_name(name)
     s = Song.new(name)
     self.add_song(s)
     s
