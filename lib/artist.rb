@@ -31,7 +31,6 @@ class Artist
 end
 
 
-
 # a= Artist.new 
 # a.songs.<<(Song.new)     Lin 18 and 19 are the same
 # a.songs.push(Song.new)
