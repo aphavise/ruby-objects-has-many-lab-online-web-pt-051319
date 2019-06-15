@@ -19,6 +19,11 @@ class Author
     self.add_post(s)
     s
   end
+  
+  
+  def post_count 
+    
+
 
   
 end 
