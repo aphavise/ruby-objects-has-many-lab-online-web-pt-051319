@@ -25,7 +25,5 @@ class Author
     self.posts.size
   end
     
-
-
   
 end 
