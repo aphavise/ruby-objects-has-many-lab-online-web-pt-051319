@@ -8,10 +8,14 @@ class Artist
   end
   
   def add_song(song)
-    @songs << song
+    @songs << song  #has many 
+    song.artist = self #belongs to relationship
   end
   
+  def add_song_by_name()
+  
 end
+
 
 
 # a= Artist.new 
